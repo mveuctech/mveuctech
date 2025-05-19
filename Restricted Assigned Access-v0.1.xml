@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssignedAccessConfiguration 
+xmlns="http://schemas.microsoft.com/AssignedAccess/2017/config"
+xmlns:rs5="http://schemas.microsoft.com/AssignedAccess/201810/config"
+xmlns:v3="http://schemas.microsoft.com/AssignedAccess/2020/config"
+xmlns:v4="http://schemas.microsoft.com/AssignedAccess/2021/config"
+xmlns:v5="http://schemas.microsoft.com/AssignedAccess/2022/config"
+>
+  <Profiles>
+    <Profile Id="{4e2e5dfd-46f7-4fe3-8491-2e1dbdd4a881}">
+	
+	<!-- Allowed Applications -->
+      <AllAppsList>
+        <AllowedApps>
+          <App AppUserModelId="Microsoft.CompanyPortal_8wekyb3d8bbwe!App" />
+		  <App AppUserModelId="Microsoft.WindowsNotepad_8wekyb3d8bbwe!App" />
+          <App AppUserModelId="Microsoft.Windows.Photos_8wekyb3d8bbwe!App" />
+		  <App AppUserModelId="AppUp.IntelGraphicsExperience_*!App" />
+		  <App AppUserModelId="AppUp.IntelGraphicsExperience_8j3eq9eme6ctt!App" />
+		  <App AppUserModelId="AppUp.IntelOptaneMemoryandStorageManagement_8j3eq9eme6ctt!App" />
+          <App AppUserModelId="AppUp.IntelOptaneMemoryandStorageManagement_*!App" />
+		  <App AppUserModelId="DellInc.DellCommandUpdate_htrsf667h5kn2!App" />
+		  <App AppUserModelId="DellInc.DellCommandUpdate_*!App" />
+		  <App AppUserModelId="DellInc.DellSupportAssistforPCs_htrsf667h5kn2!App" />
+          <App AppUserModelId="DellInc.DellSupportAssistforPCs_*!App" />
+		  <App AppUserModelId="Microsoft.MicrosoftEdge_8wekyb3d8bbwe!App" />
+		  <App AppUserModelId="Microsoft.WindowsCalculator_8wekyb3d8bbwe!App" />
+		  <App AppUserModelId="Microsoft.UI.Xaml.2.8_8wekyb3d8bbwe!App" />
+		  <App AppUserModelId="Microsoft.NET.Native.Framework.2.2_8wekyb3d8bbwe!App" />
+		  <App AppUserModelId="Microsoft.NET.Native.Runtime.2.2_8wekyb3d8bbwe!App" />
+		  <App AppUserModelId="Microsoft.VCLibs.140.00_8wekyb3d8bbwe!App" />
+		  <App AppUserModelId="Microsoft.WindowsCamera_8wekyb3d8bbwe!App" />
+		  <App AppUserModelId="Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe!App" />
+		  <App AppUserModelId="Microsoft.WindowsAppRuntime.1.5_8wekyb3d8bbwe!App" />
+		  <App AppUserModelId="Microsoft.Paint_8wekyb3d8bbwe!App" />
+		  <App AppUserModelId="Microsoft.VCLibs.140.00.UWPDesktop_8wekyb3d8bbwe!App" />
+		  <App AppUserModelId="Microsoft.WindowsNotepad_11.2412.16.0_neutral_split.scale-150_8wekyb3d8bbwe!App" />
+		  <App AppUserModelId="Microsoft.OfficePushNotificationUtility!App" />
+		  <App DesktopAppPath="%ProgramFiles%\Microsoft Office\root\Office16\WINWORD.EXE" />
+		  <App DesktopAppPath="%ProgramFiles%\Microsoft Office\root\Office16\EXCEL.EXE" />
+		  <App DesktopAppPath="%ProgramFiles%\Microsoft Office\root\Office16\POWERPNT.EXE" />
+		  <App DesktopAppPath="%ProgramFiles%\Microsoft Office\root\Office16\MSPUB.EXE" />
+		  <App DesktopAppPath="%ProgramFiles%\Adobe\Acrobat DC\Acrobat\Acrobat.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat DC\Acrobat\Acrobat.exe" />
+		  <App DesktopAppPath="%ProgramFiles%\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Setup Files\{AC76BA86-7AD7-1033-7B44-AC0F074E4100}\AcroRead.msi" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Setup Files\{AC76BA86-7AD7-1033-7B44-AC0F074E4100}\setup.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\AcroBroker.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\AcroRd32Info.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\AcroTextExtractor.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\ADelRCP.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\ADNotificationManager.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\AdobeCollabSync.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\AdobeGenuineSlimInstaller.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\arh.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\Eula.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\FullTrustNotifier.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\LogTransport2.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\reader_sl.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\ShowAppPickerForPDF.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\wow_helper.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\AcroCEF\RdrCEF.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\AcroCEF\RdrServicesUpdater.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\AcroCEF_1\RdrCEF.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\AcroCEF_1\RdrServicesUpdater.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\AcroLayoutRecognizer\AcroLayoutRecognizer.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\Browser\WCChromeExtn\WCChromeNativeMessagingHost.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\NGL\cefWorkflow\adobe_licensing_wf_acro.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\NGL\cefWorkflow\adobe_licensing_wf_helper_acro.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\OSSLLibs\AdobeFips.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\plug_ins\pi_brokers\32BitMAPIBroker.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\plug_ins\pi_brokers\64BitMAPIBroker.exe" />
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\plug_ins\pi_brokers\MSRMSPIBroker.exe" />  
+		  <App DesktopAppPath="%ProgramFiles(x86)%\Microsoft\Edge\Application\msedge.exe" rs5:AutoLaunch="true" />
+        </AllowedApps>
+      </AllAppsList>
+	  
+	  
+	  <!-- Start Menu Layout -->
+      <v5:StartPins><![CDATA[{
+                    "pinnedList":[
+                        {"desktopAppLink":"%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\Word.lnk"},
+                        {"desktopAppLink":"%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\Excel.lnk"},
+                        {"desktopAppLink":"%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\PowerPoint.lnk"},
+						{"desktopAppLink":"%APPDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\File Explorer.lnk"}
+                    ]
+                }]]>
+	  </v5:StartPins>
+	  
+	  <!-- Enable Taskbar -->
+      <Taskbar ShowTaskbar="true" />
+	  
+    </Profile>
+  </Profiles>
+  
+  
+  <Configs>
+  <!-- Assigned Access User Configuration -->
+    <Config>
+      <Account>AzureAD\testaccount1@mveuctech.com</Account>
+      <DefaultProfile Id="{4e2e5dfd-46f7-4fe3-8491-2e1dbdd4a881}" />
+    </Config>
+  </Configs>
+</AssignedAccessConfiguration>
